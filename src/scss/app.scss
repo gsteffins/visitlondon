@@ -1,6 +1,12 @@
 $black: #000;
-$red: red;
+$gray: gray;
 body {
-  background-color: $red;
-  color: white;
+  background-color: $gray;
+}
+h1 {
+    color: white;
+}
+
+h1:hover {
+  transition: color 1s ease;
 }
