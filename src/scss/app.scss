@@ -1,12 +1,13 @@
-$black: #000;
-$gray: gray;
-body {
-  background-color: $gray;
-}
-h1 { 
-    color: white;
-}
+$white: #ffffff;
+$blue: #0076A3;
+$dark-blue: darken($blue, 10);
+$yellow: #FFBA00;
+$green: #548c27;
+$red: #fe2d58;
+$black: #000000;
 
-h1:hover {
-  transition: color 1s ease;
+$bg-color: $blue;
+
+body {
+  background-color: $bg-color;
 }
